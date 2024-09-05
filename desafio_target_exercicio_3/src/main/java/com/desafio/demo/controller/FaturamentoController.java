@@ -26,10 +26,12 @@ public class FaturamentoController {
 		double maior = service.calcularMaiorFaturamento(dados);
 		double media = service.calcularMediaDeFaturamento(dados);
 		long diasAcima = service.calcuarDiasAcimaDaMedia(dados);
-		var faturamentoResponse = new FaturamentoResponseDto("R$ " + String.format("%.2f", menor)
-				, "R$ " + String.format("%.2f", maior)
-				, "R$ " + String.format("%.2f", media)
-				, diasAcima);
+		
+		var faturamentoResponse = new FaturamentoResponseDto("R$ " + String.format("%.2f", menor), 
+				"R$ " + String.format("%.2f", maior), 
+				"R$ " + String.format("%.2f", media), 
+				diasAcima);
+		
 		return ResponseEntity.ok(faturamentoResponse);
 	}
 }

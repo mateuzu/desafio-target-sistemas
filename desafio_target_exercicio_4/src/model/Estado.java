@@ -2,7 +2,7 @@ package model;
 
 import java.text.DecimalFormat;
 
-import application.service.CalcularFaturamento;
+import service.CalcularFaturamento;
 
 public class Estado implements CalcularFaturamento{
 

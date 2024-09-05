@@ -1,8 +1,6 @@
 package application;
 
-import java.util.ArrayList;
 import java.util.InputMismatchException;
-import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -16,27 +14,30 @@ public class Main {
 		try {
 			input = scanner.nextInt();
 		} catch (InputMismatchException e) {
-			System.out.println("Digite números inteiros!");
+			System.out.println("Erro: Digite números inteiros!");
 			scanner.close();
-			System.exit(0);
+			return;
 		}
-				
-		List<Integer> sequencia = new ArrayList<>();
+
 		int atual = 0; //Valor atual
 		int proximo = 1; //Próximo valor
 		int soma = 0; //Soma
+		boolean pertence = false;
 
-		for (int i = 0; atual <= input; i++) {
-			sequencia.add(atual);
+		while(atual <= input) {
+			if (atual == input) {
+				pertence = true;
+				break;
+			}
 			soma = atual + proximo;
 			atual = proximo;
 			proximo = soma;
 		}
 
-		if (sequencia.contains(input)) {
-			System.out.println("O número " + input + " pertence a sequência de Fibonacci");
+		if (pertence) {
+			System.out.println("O número " + input + " pertence a sequência de Fibonacci!");
 		} else {
-			System.out.println("O número " + input + " não pertence a sequência de Fibonacci");
+			System.out.println("O número " + input + " não pertence a sequência de Fibonacci!");
 		}
 
 		scanner.close();
