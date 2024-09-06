@@ -3,7 +3,7 @@ Este é um repositório contendo os exercícios do Desafio Target para vaga de E
 
 <br>
 
-### Linguagens/framework utilizados 💻
+### Tecnologias utilizadas 💻
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40" style="max-width: 100%;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg" alt="spring" width="40" height="40" style="max-width: 100%;">
 - Java
 - Spring Boot
