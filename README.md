@@ -68,6 +68,7 @@ Escreva um programa que inverta os caracteres de um string.
 A resolução de cada um dos exercócios:
 - [Exercício 1](https://github.com/mateuzu/desafio-target-sistemas/blob/main/desafio_target_exercicio_1/src/application/Main.java)
 - [Exercício 2](https://github.com/mateuzu/desafio-target-sistemas/blob/main/desafio_target_exercicio_2/src/application/Main.java)
-- [Exercício 3](https://github.com/mateuzu/desafio-target-sistemas/blob/main/desafio_target_exercicio_3/src/main/java/com/desafio/demo/controller/FaturamentoController.java)
+- [Exercício 3 - API](https://github.com/mateuzu/desafio-target-sistemas/blob/main/desafio_target_exercicio_3/src/main/java/com/desafio/demo/controller/FaturamentoController.java)
+- [Exercício 3 - Leitura do arquivo](https://github.com/mateuzu/desafio-target-sistemas/blob/main/desafio_target_exercicio_3/src/application/Main.java)
 - [Exercício 4](https://github.com/mateuzu/desafio-target-sistemas/blob/main/desafio_target_exercicio_4/src/application/Main.java)
 - [Exercício 5](https://github.com/mateuzu/desafio-target-sistemas/blob/main/desafio_target_exercicio_5/src/application/Main.java)
